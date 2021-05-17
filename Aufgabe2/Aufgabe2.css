@@ -1,0 +1,31 @@
+*{box-sizing: border-box;}
+body{
+	margin: 0;
+	height: 100vh;
+	width: 100vw;
+}
+ 
+
+.outerBox
+{
+	width: 500px;
+	height: 500px;
+	background-color: yellow;
+}
+
+body, .outerBox, .innerBox1
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.innerBox1, .innerBox2
+{
+	width: 90%;
+	height: 90%;
+}
+.outerBox{background-color: yellow;}
+.innerBox1{background-color: blue;}
+.innerBox2{background-color: red;}
+
